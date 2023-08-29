@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Source+Code+Pro:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.sidebar{
+    /* display: flex; */
+    background-color: rgb(224, 218, 211);
+    width: 434px;
+    height: 100vh;
+ 
+}
+
+.sidebar nav{
+    padding: 45px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+    
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.infocontainer{
+    /* background-color: rgb(244, 148, 148); */
+    height: 78vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 300px;
+}
+
+
+
+.pic img{
+    height: 78vh;
+ 
+}
+
+.hello{
+    font-size: 70px;
+    
+
+}
+
+.name{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.info{
+    font-size: 40px;
+
+}
+.about{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.btn button{
+    border-radius: 10px;
+   padding: 10px;
+    font-size: 0.85rem;
+
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.btn :hover{
+    color: white;
+    background-color: rgb(23, 52, 75);
+    cursor: pointer;
+}
+
+h1{
+
+    text-align: center;
+    font-size: 25px;
+}
+
+form{
+    height: 65vh;
+    width: 20vw;
+    background-color: rgb(220, 210, 197);
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 50px 40%;
+
+}
+.border{
+    margin-top: 15px;
+    /* border: 2px solid black; */
+    height: 60vh;
+}
+
+.form-label{
+    font-size: 1.2rem;
+    margin-top: 5vh;
+    
+}
+.form-control{
+    align-items: end;
+    justify-content: end;
+}
+
+.form-text{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.phn{
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+
+
+ .btton {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+
+}
+
+.contact{
+    height: 15vh;
+    width: 10vw;
+    margin-left: 56px;
+    
+  
+}
+
+.form-check-label{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
